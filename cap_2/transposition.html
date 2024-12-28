@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Transposition</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../format_topic.css">
+  <meta name="author" content="Cocu Matei-Iulian">
+  <meta name="description" content="basics of cryptography explained">
+  <meta name="keywords" content="cryptography">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../resurse/lacat.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+    <label for="dropdown-toggle" class="dropdown-label">&#9776;</label>
+    <h1>Transposition - Cryptography Concepts</h1>
+    <nav class="dropdown-menu">
+      <a href="../index.html">Home</a>
+      <a href="../cap_1/steganography.html">Steganography</a>
+      <a href="../cap_3/monoalpha_sub.html">Mono-Substitution</a>
+      <a href="../cap_4/polyalpha_sub.html">Poly-Substitution</a>
+      <a href="../cap_5/dig_crypto.html">Digital Cryptography</a>
+      <a href="../cap_6/cypher_playground.html">Cypher Playground</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="history">
+      <h2>Brief History Introduction</h2>
+      <div class="multi-column">
+        <p>Transposition ciphers, also known as permutation ciphers, are cryptographic encryption methods that change the locations of characters without changing the characters themselves. By rearranging plaintext units, typically characters or groups of characters, according to a standard procedure, transposition ciphers produce a ciphertext, which is a permutation of the plaintext.</p>
+        <p>Even the ancient Greeks and Romans employed transposition ciphers, making them one of the oldest known types of encryption, being used thoroughly throughout the following centuries. The Spartan "scytale" cipher is a well-known historical example. It involved wrapping a piece of parchment around a staff, writing the message along its length, unwinding it, and sending it, whilst in the middle of the 17th century, Samuel Morland introduced an early form of columnar transposition; it was further developed much later, becoming very popular in the later 19th century and 20th century, with French military, Japanese diplomats and Soviet spies all using the principle.</p>
+      </div>
+    </section>
+    
+    <section class="theory">
+      <h2>Theoretical Concepts</h2>
+      <div class="multi-column">
+        <p>In practice, a message this short and with a predictable keyword would be broken almost immediately with cryptanalysis techniques. Transposition ciphers have several vulnerabilities (see the section on "Detection and cryptanalysis" below), and small mistakes in the encipherment process can render the entire ciphertext meaningless.</p>
+        <p>However, given the right conditions - long messages, unpredictable contents, unique keys per message, strong transposition methods, and so on - guessing the right words could be computationally impossible without further information. In their book on codebreaking historical ciphers, Elonka Dunin and Klaus Schmeh describe double columnar transposition (see below) as "one of the best manual ciphers known".</p>
+        <p>For comparison, substitution ciphers, which change the plaintext units themselves instead of their placement, are not the same as transposition ciphers. Despite their differences, transposition and substitution processes are sometimes used together, whether in earlier ciphers like the ADFGVX cipher or more complex, high-quality encryption methods like the modern Advanced Encryption Standard (AES).</p>
+      </div>
+      <div class="iframe-wrapper">
+      </div>
+    </section>
+
+    <section class="exercises">
+      <h2>Applicable Exercises</h2>
+      <div class="exercise-container">
+        <nav class="exercise-nav">
+            <ul>
+                <li><a href="exercises/" target="exercise-frame">1</a></li>
+                <li><a href="exercises/" target="exercise-frame">2</a></li>
+                <li><a href="exercises/" target="exercise-frame">3</a></li>
+                <li><a href="exercises/" target="exercise-frame">4</a></li>
+            </ul>
+        </nav>
+        <div class="GUI">
+          <input type="text" id="textinput" name="textinput" placeholder="Enter your answer here:" autocomplete="off">
+          <button id="check"></button>
+          <button id="hinter"></button>
+        </div>
+        <iframe class="iframe-wrapper" name="exercise-frame" class="exercise-frame"></iframe>
+      </div>
+    </section>
+    
+    <section class="appendix">
+      <h2>Appendix: Support for Problem Solving</h2>
+      <p></p>
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>

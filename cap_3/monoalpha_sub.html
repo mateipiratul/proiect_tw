@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Monoalphabetic Substitution</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../format_topic.css">
+  <link rel="stylesheet" href="mono.css">
+  <script type="text/javascript" src="vigenere-table.js"></script>
+  <meta name="author" content="Cocu Matei-Iulian">
+  <meta name="description" content="basics of cryptography explained">
+  <meta name="keywords" content="cryptography">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../resurse/lacat.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+    <label for="dropdown-toggle" class="dropdown-label">&#9776;</label>
+    <h1>Monoalphabetic Substitution - Cryptography Concepts</h1>
+    <nav class="dropdown-menu">
+      <a href="../index.html">Home</a>
+      <a href="../cap_1/steganography.html">Steganography</a>
+      <a href="../cap_2/transposition.html">Transposition</a>
+      <a href="../cap_4/polyalpha_sub.html">Poly-Substitution</a>
+      <a href="../cap_5/dig_crypto.html">Digital Cryptography</a>
+      <a href="../cap_6/cypher_playground.html">Cypher Playground</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="history">
+      <h2>Brief History Introduction</h2>
+      <p class="multi-column"></p>
+    </section>
+    
+    <section class="theory">
+      <h2>Theoretical Concepts</h2>
+      <p></p>
+    </section>
+
+    <section class="exercises">
+      <h2>Applicable Exercises</h2>
+      <div class="exercise-container">
+        <nav class="exercise-nav">
+            <ul>
+                <li><a href="exercises/caesar-cipher.html" target="exercise-frame">1</a></li>
+                <li><a href="exercises/" target="exercise-frame">2</a></li>
+                <li><a href="exercises/" target="exercise-frame">3</a></li>
+                <li><a href="exercises/" target="exercise-frame">4</a></li>
+            </ul>
+        </nav>
+        <div class="GUI">
+          <input type="text" id="textinput" name="textinput" placeholder="Enter your answer here:" autocomplete="off">
+          <button id="check"></button>
+          <button id="hinter"></button>
+        </div>
+        <iframe class="iframe-wrapper" name="exercise-frame" class="exercise-frame"></iframe>
+      </div>
+    </section>
+    <section class="appendix">
+      <h2>Appendix: Support for Problem Solving</h2>
+      <div id="vigenere-container"></div>
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>

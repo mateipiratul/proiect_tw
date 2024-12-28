@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Steganography</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../format_topic.css">
+  <meta name="author" content="Cocu Matei-Iulian">
+  <meta name="description" content="basics of cryptography explained">
+  <meta name="keywords" content="cryptography">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="icon" href="../resurse/lacat.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <input type="checkbox" id="dropdown-toggle" class="dropdown-checkbox">
+    <label for="dropdown-toggle" class="dropdown-label">&#9776;</label>
+    <h1>Steganography - Cryptography Concepts</h1>
+    <nav class="dropdown-menu">
+      <a href="../index.html">Home</a>
+      <a href="../cap_2/transposition.html">Transposition</a>
+      <a href="../cap_3/monoalpha_sub.html">Mono-Substitution</a>
+      <a href="../cap_4/polyalpha_sub.html">Poly-Substitution</a>
+      <a href="../cap_5/dig_crypto.html">Digital Cryptography</a>
+      <a href="../cap_6/cypher_playground.html">Cypher Playground</a>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="history">
+      <h2>Brief History Introduction</h2>
+      <div class="multi-column">
+        <p><b>Steganography</b> is the technique of hiding information within another message or object in a way that conceals its presence from an observer. In digital contexts, this can involve embedding a file, image, video, or message within another similar medium, making it appear unremarkable. Hidden messages often seem to be everyday items like images, articles, or shopping lists; for instance, a secret message might be written in invisible ink between the lines of a letter.</p>
+        <p><b>The first recorded</b> uses of steganography can be traced back to 440 BC in Greece, when Herodotus mentions two examples in his Histories. Histiaeus sent a message to his vassal, Aristagoras, by shaving the head of his most trusted servant, "marking" the message onto his scalp, then sending him on his way once his hair had regrown, with the instruction, "When thou art come to Miletus, bid Aristagoras shave thy head, and look thereon." Additionally, Demaratus sent a warning about a forthcoming attack to Greece by writing it directly on the wooden backing of a wax tablet before applying its beeswax surface. Wax tablets were in common use then as reusable writing surfaces, sometimes used for shorthand.</p>
+      </div>
+    </section>
+    
+    <section class="theory">
+      <h2>Theoretical Concepts</h2>
+      <div class="multi-column">
+        <p><b>Unlike cryptography</b>, which only protects the content of a message, steganography conceals both the message and its existence, helping it avoid detection. Encrypted messages, while secure, can attract attention or suspicion, especially in places where encryption is restricted. Steganography has long been used to hide information in physical items, such as invisible ink on paper, Morse code on yarn, microdots, or musical ciphers that encode messages as musical notes.</p>
+        <p><b>In societies with censorship</b> or cultural restrictions, people often use "cultural steganography" by embedding messages in pop culture references, idioms, or other public communications, assuming these are being monitored.</p>
+        <p><b>Methods</b> for embedding messages in digital cover media have existed since the invention of computers. An unbreakable cypher, such as the one-time pad, creates ciphertexts that appear completely random without the private key. The message to be concealed is frequently encrypted and then used to overwrite a portion of a much bigger block of encrypted data or a block of random data.</p>
+        <p><b>Changes to pixels</b> in image or sound files, digital text attributes like font selection and spacing, chaffing and winnowing, mimic functions, altering a sound file's echo, and adding information to parts of a file that are disregarded are a few examples. </p>
+      </div>
+      <div class="separator"><b>Editor’s note:</b><span id="hidden">Marin Sorescu, one of Romania’s notable authors, published many works under the communist regime, contributing to his lasting popularity. His trilogy Setea muntelui de sare, which includes Iona, Paracliserul, and Matca, explores themes of poetic and symbolic theater.</span></div>
+    </section>
+
+    <section class="exercises">
+      <h2>Applicable Exercises</h2>
+      <div class="exercise-container">
+        <nav class="exercise-nav">
+            <ul>
+                <li><a id="shop" href="exercises/shopping-list.html" target="exercise-frame">1</a></li>
+                <li><a id="mors" href="exercises/morse-code.html" target="exercise-frame">2</a></li>
+                <li><a id="conc" href="exercises/concealment.html" target="exercise-frame">3</a></li>
+                <li><a id="cloc" href="exercises/clock-hours.html" target="exercise-frame">4</a></li>
+            </ul>
+        </nav>
+        <div class="GUI">
+          <input type="text" id="textinput" name="textinput" placeholder="Enter your answer here:" autocomplete="off">
+          <button id="check">CHECK</button>
+          <button id="hinter">HINT</button>
+        </div>
+        <iframe class="iframe-wrapper" name="exercise-frame"></iframe>
+      </div>
+    </section>
+    
+    <section class="appendix">
+      <h2>Appendix: Support for Problem Solving - Morse Code</h2>
+      <div class="multi-column">
+        <p>A  • ▬</p><p>B  ▬ • • •</p><p>C  ▬ • ▬ •</p><p>D  ▬ • •</p><p>E  •</p><p>F  • • ▬ •</p><p>G  ▬ ▬ •</p><p>H  • • • •</p>
+        <p>I  • •</p><p>J  • ▬ ▬ ▬</p><p>K  ▬ • ▬</p><p>L  • ▬ • •</p><p>M  ▬ ▬</p><p>N  ▬ •</p><p>O  ▬ ▬ ▬</p><p>P  • ▬ ▬ •</p>
+        <p>Q  ▬ ▬ • ▬</p><p>R  • ▬ •</p><p>S  • • •</p><p>T  ▬</p><p>U  • • ▬</p><p>V  • • • ▬</p><p>W  • ▬ ▬</p><p>X  ▬ • • ▬</p>
+        <p>Y  ▬ • ▬ ▬</p><p>Z  ▬ ▬ • •</p><p class="separator">1  • ▬ ▬ ▬ ▬</p><p>2  • • ▬ ▬ ▬</p><p>3  • • • ▬ ▬</p><p>4  • • • • ▬</p>
+        <p>5  • • • • •</p><p>6  ▬ • • • •</p><p>7  ▬ ▬ • • •</p><p>8  ▬ ▬ ▬ • •</p><p>9  ▬ ▬ ▬ ▬ •</p><p>0  ▬ ▬ ▬ ▬ ▬</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p></p>
+  </footer>
+</body>
+</html>
