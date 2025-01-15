@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "content": "▲●▲●■●●■▲▲■▲●●▲■▲▲▲",
+        "correctAnswer": ["limbo", "LIMBO"],
+        "hint": "1st"
+    },
+    {
+        "id": 1,
+        "content": "▲●▲●■●▲▲■●●●■▲",
+        "correctAnswer": ["lust", "LUST"],
+        "hint": "2nd"
+    },
+    {
+        "id": 2,
+        "content": "▲▲●■●▲●▲●■●▲▲■▲■▲▲▲■●▲■●▲▲▲",
+        "correctAnswer": ["gluttony", "GLUTTONY"],
+        "hint": "3rd"
+    },
+    {
+        "id": 3,
+        "content": "▲▲●■●▲●■●■●■▲●●",
+        "correctAnswer": ["greed", "GREED"],
+        "hint": "4th"
+    },
+    {
+        "id": 4,
+        "content": "●▲▲■●▲●■●▲■▲■●●●●",
+        "correctAnswer": ["wrath", "WRATH"],
+        "hint": "5th"
+    },
+    {
+        "id": 5,
+        "content": "●●●●■●■●▲●■●■●●●■●▲▲▲",
+        "correctAnswer": ["heresy", "HERESY"],
+        "hint": "6th"
+    },
+    {
+        "id": 6,
+        "content": "●●●▲■●●■▲▲▲■●▲●▲●■●■●▲■▲▲▲●■●",
+        "correctAnswer": ["violence", "VIOLENCE"],
+        "hint": "7th"
+    },
+    {
+        "id": 7,
+        "content": "●●▲●■●▲●■●▲■●▲▲■▲●●",
+        "correctAnswer": ["fraud", "FRAUD"],
+        "hint": "8th"
+    },
+    {
+        "id": 8,
+        "content": "▲■●●■▲●■▲▲▲●■▲●●■●■▲▲▲■●●",
+        "correctAnswer": ["treachery", "TREACHERY"],
+        "hint": "9th"
+    }
+]

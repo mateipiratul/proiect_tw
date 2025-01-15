@@ -1,0 +1,38 @@
+[
+    {
+        "id": 0,
+        "content": "<ul><li>Bananen – 20 Kilogramm</li><li>Lauch – 15 Bündel</li><li>Imbiss-Brezeln – 50 Stück</li><li>Tomaten – 30 Kilogramm</li><li>Zwiebeln – 25 Kilogramm</li><li>Kartoffeln – 40 Kilogramm</li><li>Roggenbrot – 50 Laibe</li><li>Inkabeeren – 10 Kilogramm</li><li>Eier – 10 Dutzend</li><li>Gurken – 20 Kilogramm</li></ul>",
+        "correctAnswer": ["BLITZKRIEG", "blitzkrieg"],
+        "hint": "schnell, schnell!"
+    },
+    {
+        "id": 1,
+        "content": "<ul><li>Eggplants – 10 Kilograms</li><li>Spinach – 15 Bunches</li><li>Potatoes – 40 Kilograms</li><li>Iceberg Lettuce – 25 Heads</li><li>Onions – 30 Kilograms</li><li>Nuts – 5 Kilograms</li><li>Apples – 20 Kilograms</li><li>Grapes – 15 Kilograms</li><li>Eggs – 8 Dozens</li></ul>",
+        "correctAnswer": ["ESPIONAGE", "espionage"],
+        "hint": "mission of few"
+    },
+    {
+        "id": 2,
+        "content": "<ul><li>Brânză de oaie - 5 kile</li><li>Roșii - 3 kile</li><li>Bomboane de pom - o pungă</li><li>Absint - o litră</li><li>Ardei - 1 kil</li><li>Plăci de marmură - 100 de bucăți</li><li>Apă - 5 ulcioare</li><li>Verze - 23 de bucăți</li><li>Satin - 7 metri</li><li>Stâne de oi - una singură</li></ul>",
+        "correctAnswer": ["BOMBA LA EST", "bomba la est", "BOMBALAEST", "bombalaest"],
+        "hint": "numeric pattern"
+    },
+    {
+        "id": 3,
+        "content": "<ul><li>Kartoffeln – 50 Kilogramm</li><li>Apfelstrudel – 30 Stück</li><li>Paprika – 25 Kilogramm</li><li>Ingwermarmelade – 20 Gläser</li><li>Tomaten – 35 Kilogramm</li><li>Ungarische Wurst – 15 Stück</li><li>Linsen – 25 Kilogramm</li><li>Apfelsaft – 40 Liter</li><li>Tofu – 30 Blöcke</li><li>Ingwer – 20 Kilogramm</li><li>Orangen – 45 Stück</li><li>Nudeln – 50 Packungen</li></ul>",
+        "correctAnswer": ["KAPITULATION", "kapitulation"],
+        "hint": "the columns, mason"
+    },
+    {
+        "id": 4,
+        "content": "<ul><li>Spinach – 15 bunches</li><li>Tomatoes – 25 kilograms</li><li>Raspberries – 20 kilograms</li><li>Apples - 30 kilograms</li><li>Thyme - 1 kilogram</li><li>Eggplants – 10 kilograms</li><li>Grapes – 40 kilograms</li><li>Iceberg lettuce – 35 heads</li><li>Cauliflower – 20 kilograms</li></ul>",
+        "correctAnswer": ["STRATEGIC", "strategic"],
+        "hint": "last Iron Maiden album released"
+    },
+    {
+        "id": 5,
+        "content": "<ul><li>Essig – 50 Liter</li><li>Vanille – 5 Kilogramm</li><li>Ingwer – 10 Kilogramm</li><li>Spinat – 20 Kilogramm</li><li>Nüsse – 15 Kilogramm</li><li>Eier – 12 Dutzend</li><li>Fisch – 25 Kilogramm</li><li>Fleisch – 30 Kilogramm</li><li>Orangen – 40 Kilogramm</li></ul>",
+        "correctAnswer": ["OFFENSIVE", "offensive"],
+        "hint": "reading in reverse"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 0,
+        "content": "12:14 12:04 13:19",
+        "correctAnswer": ["MOMENT", "moment"],
+        "hint": "zeit"
+    },
+    {
+        "id": 1,
+        "content": "18:04 02:14 13:03",
+        "correctAnswer": ["SECOND", "second"],
+        "hint": "zeit"
+    },
+    {
+        "id": 2,
+        "content": "19:08 12:04 11:08 13:04",
+        "correctAnswer": ["TIMELINE", "timeline"],
+        "hint": "zeit"
+    },
+    {
+        "id": 3,
+        "content": "12:08 03:13 08:06 07:19",
+        "correctAnswer": ["MIDNIGHT", "midnight"],
+        "hint": "zeit"
+    },
+    {
+        "id": 4,
+        "content": "08:13 19:04 17:21 00:11",
+        "correctAnswer": ["INTERVAL", "interval"],
+        "hint": "zeit"
+    },
+    {
+        "id": 5,
+        "content": "02:00 11:04 13:03 00:17",
+        "correctAnswer": ["CALENDAR", "calendar"],
+        "hint": "zeit"
+    },
+    {
+        "id": 6,
+        "content": "18:13 00:15 18:07 14:19",
+        "correctAnswer": ["SNAPSHOT", "snapshot"],
+        "hint": "zeit"
+    },
+    {
+        "id": 7,
+        "content": "19:08 12:04 11:04 18:18",
+        "correctAnswer": ["TIMELESS", "timeless"],
+        "hint": "zeit"
+    }
+]
