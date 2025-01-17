@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "content": "<p>X Y O U X</p><p>Y O X U R</p><p>T X W X E</p><p>A O X S A</p><p>X H W P X</p>",
+        "correctAnswer": ["you reap what you sow", "youreapwhatyousow"],
+        "hint": "biblical saying, perchance"
+    },
+    {
+        "id": 1,
+        "content": "<p>D E H T W</p><p>O I T E H</p><p>S N N F A</p><p>T A O I T</p><p>Y N F N I</p><p></p>",
+        "correctAnswer": ["", ""],
+        "hint": "far cry 3 voiceline, maychance"
+    }
+]

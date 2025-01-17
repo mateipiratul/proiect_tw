@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "content": "PYRCEH",
+        "correctAnswer": "cypher",
+        "hint": "backtrack"
+    },
+    {
+        "id": 1,
+        "content": "p!aoestlcc",
+        "correctAnswer": ["spectacol", "!spectacol", "spectacol!"],
+        "hint": "backtrack"
+    }
+]

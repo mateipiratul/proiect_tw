@@ -12,6 +12,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="icon" href="../resurse/lacat.ico" type="image/x-icon">
+  <script type="text/javascript" src="../script.js"></script>
 </head>
 <body>
   <header>
@@ -53,16 +54,16 @@
       <div class="exercise-container">
         <nav class="exercise-nav">
             <ul>
-                <li><a href="exercises/" target="exercise-frame">1</a></li>
-                <li><a href="exercises/" target="exercise-frame">2</a></li>
-                <li><a href="exercises/" target="exercise-frame">3</a></li>
-                <li><a href="exercises/" target="exercise-frame">4</a></li>
+                <li><a id="permutation" href="exercises/permutation.html" target="exercise-frame">1</a></li>
+                <li><a id="model_x" href="exercises/model_x.html" target="exercise-frame">2</a></li>
+                <li><a id="matrix" href="exercises/matrix.html" target="exercise-frame">3</a></li>
+                <li><a id="rev-str" href="exercises/rev-str.html" target="exercise-frame">4</a></li>
             </ul>
         </nav>
         <div class="GUI">
           <input type="text" id="textinput" name="textinput" placeholder="Enter your answer here:" autocomplete="off">
-          <button id="check"></button>
-          <button id="hinter"></button>
+          <button id="check">CHECK</button>
+          <button id="hinter">HINT</button>
         </div>
         <iframe class="iframe-wrapper" name="exercise-frame" class="exercise-frame"></iframe>
       </div>

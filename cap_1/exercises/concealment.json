@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0, 
+        "content": "<p>Once upon a midnight dreary, whille I pondered, weak and weary,</p><p>Over many a quaint and curious volume of foregotten lore,</p><p>While I nodded, nearly napping, suddely there came a tapping,</p><p>As of some one gently rapping, rapping at my chamber dooor.</p><p>'Tis some visitor,' I muttered, 'tapping at my chambere door--</p><p>Only this, and nothing more.'</p>",
+        "correctAnswer": "lenore",
+        "hint": "typo, perchance"
+    },
+    {
+        "id": 1, 
+        "content": "<p>It's been <b>too</b> long since we last spoke, however the time of our</p><p>escape is not something which <b>one</b> can divulge so easily (<b>for</b></p><p>fear of prying eyes) but we will soon be <b>free</b>.</p>",
+        "correctAnswer": ["2143", "twoonefourthree", "2 1 4 3", "two one four three"],
+        "hint": "digits, perchance"
+    },
+    {
+        "id": 2, 
+        "content": "SCIEnCE IS KNOWlEDGE iS PowEr!",
+        "correctAnswer": "bacon",
+        "hint": "sIzE, PeRcHaNcE"
+    }
+]

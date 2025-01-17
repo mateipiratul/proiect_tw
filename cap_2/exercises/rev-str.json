@@ -1,0 +1,20 @@
+[
+    {
+        "id": 0,
+        "content": "ESREVERNIGNILLAF",
+        "correctAnswer": ["falling in reverse", "fallinginreverse"],
+        "hint": "figure it out, ig?"
+    },
+    {
+        "id": 1,
+        "content": "NoisrevnI",
+        "correctAnswer": "inversion",
+        "hint": "figure it out, ig?"
+    },
+    {
+        "id": 2,
+        "content": "neeuq amard detacidem",
+        "correctAnswer": ["medicated drama queen", "medicateddramaqueen", "drama queen", "dramaqueen"],
+        "hint": "figure it out, ig?"
+    }
+]

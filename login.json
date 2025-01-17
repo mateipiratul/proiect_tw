@@ -1,0 +1,26 @@
+[
+    {
+        "surname": "coco",
+        "nickname": "mr_p",
+        "email": "coco.puffs@gmail.com",
+        "password": "cocolino!123"
+    },
+    {
+        "surname": "Peter",
+        "nickname": "p_griffin",
+        "email": "peter.griffin@qua.hog",
+        "password": "23shlaggyp!nts"
+    },
+    {
+        "surname": "Matei",
+        "nickname": "matei_piratul",
+        "email": "cocu.matei24@yahoo.com",
+        "password": "Aurelcuadrato1!"
+    },
+    {
+        "surname": "Clara",
+        "nickname": "santa_muerte",
+        "email": "santa_muerte@cartel.com",
+        "password": "HolaMiGente47"
+    }
+]
