@@ -29,7 +29,12 @@ window.onload = function () {
                 const existingData = JSON.parse(localStorage.getItem("registeredUsers")) || [];
                 existingData.push(userData);
                 localStorage.setItem("registeredUsers", JSON.stringify(existingData));
-                
+
+                sessionStorage.setItem("surname", surname);
+                sessionStorage.setItem("nickname", nickname);
+                sessionStorage.setItem("email", email);
+                sessionStorage.setItem("password", password);
+
                 alert(`Welcome, ${nickname}!`);
                 window.location.href = "index.html";
             } else {
